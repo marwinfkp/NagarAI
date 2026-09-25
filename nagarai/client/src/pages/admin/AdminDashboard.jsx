@@ -28,9 +28,9 @@ import {
 } from '../../services/api';
 
 const NAV_ITEMS = [
+  { id: 'sec-dashboard', label: 'Dashboard', icon: <LayoutDashboard className="h-4 w-4" /> },
   { id: 'sec-nagarai', label: 'NagarAI Command', icon: <Building2 className="h-4 w-4" /> },
   { id: 'sec-waste-ops', label: 'Waste Ops', icon: <Truck className="h-4 w-4" /> },
-  { id: 'sec-dashboard', label: 'Dashboard', icon: <LayoutDashboard className="h-4 w-4" /> },
   { id: 'sec-store-orders', label: 'Store Orders', icon: <ShoppingBag className="h-4 w-4" /> },
   { id: 'sec-collectors', label: 'Manage Collectors', icon: <Truck className="h-4 w-4" /> },
   { id: 'sec-users', label: 'Manage Citizens', icon: <GraduationCap className="h-4 w-4" /> },
